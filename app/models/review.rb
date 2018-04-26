@@ -1,4 +1,4 @@
 class Review < ApplicationRecord
     belong_to :user
-    belong_to :item
+    belong_to :reviewable, polymorphic: true
 end
