@@ -50,7 +50,7 @@ ActiveRecord::Schema.define(version: 2018_05_02_102303) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "passport"
+    t.string "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "city_id"
